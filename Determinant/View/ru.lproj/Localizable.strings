@@ -1,0 +1,28 @@
+"Player (+)" = "Ходит игрок (+)";
+
+"Player (-)" = "Ходит игрок (-)";
+
+"Determinant = 0.\nDraw!🤝 " = "Детерминант = 0.\nНичья!🤝 ";
+
+"Determinant = .\nPlayer(+) Won 🏆" = "Детерминант = \nПобедил Игрок(+) 🏆";
+
+"Determinant = .\nPlayer(-) Won 🏆" = "Детерминант = \nПобедил Игрок(-) 🏆";
+
+"Welcome to the Game\n«Determinant»" = "Добро пожаловать в игру\n«Детерминант»";
+
+"Read the Instruction" = "Читать правила";
+
+"Game" = "Игра";
+
+"1st Player, choose the Sign\n👇🏻" = "Первый игрок, выберите знак👇🏻";
+
+"2nd Player, choose the Sign\n👇🏻" = "Второй игрок, выберите знак👇🏻";
+
+"+Choose the Sign-" = "+Выберите знак-";
+
+"Matrix 3x3" = "Матрица 3х3";
+
+"More about Matrix 3x3" = "Узнать больше";
+
+"1. Main Diagonal =\n(a11a22a33)+(a12a23a31)+(a13a21a32)\n\n2. Secondary Diagonal =\n(a13a22a31) - (a12a21a33) - (a11a23a32)\n\n3. Determinant =\nMain Diagonal - Secondary Diagonal" = "1. Главная диагональ =\n(a11a22a33)+(a12a23a31)+(a13a21a32)\n\n2. Вторичная диагональ =\n(a13a22a31) - (a12a21a33) - (a11a23a32)\n\n3. Детерминант =\nГлавная диагональ - Вторичная диагональ";
+
