@@ -8,16 +8,13 @@
 import UIKit
 
 extension UIImageView {
-  
-  func fadeTransition() {
-    self.alpha = 0.0
-    UIImageView.animate(
-      withDuration: 3.0,
-      delay: 0.25,
-      options: .curveEaseInOut,
-      animations: {
-        self.alpha = 1
-      })
-  }
-  
+    func fadeTransition() {
+        self.alpha = 0.0
+        UIImageView.animate(
+            withDuration: 3.0,
+            delay: 0.25,
+            options: .curveEaseInOut,
+            animations: { self.alpha = 1 }
+        )
+    }
 }

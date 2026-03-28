@@ -7,23 +7,22 @@
 
 import UIKit
 
-class DeterminantTextField: UITextField {
-  
-  init() {
-    super.init(frame: .zero)
-    self.translatesAutoresizingMaskIntoConstraints = false
-    self.layer.cornerRadius = 10
-    self.font = UIFont.tfFont
-    self.textAlignment = .center
-    self.backgroundColor = .white
-  }
-  
-  override init(frame: CGRect) {
-    super.init(frame: .zero)
-  }
-  
-  required init?(coder: NSCoder) {
-    fatalError(Constants.NSCoder.fatalError)
-  }
-  
+final class DeterminantTextField: UITextField {
+    
+    init() {
+        super.init(frame: .zero)
+        translatesAutoresizingMaskIntoConstraints = false
+        layer.cornerRadius = 10
+        font = UIFont.tfFont
+        textAlignment = .center
+        backgroundColor = .white
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: .zero)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError(AppConstants.NSCoder.fatalError)
+    }
 }

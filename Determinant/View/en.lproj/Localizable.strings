@@ -1,0 +1,50 @@
+// TabBar
+"TabBar.InfoTab.Title" = "Info";
+"TabBar.ResultsTab.Title" = "Results";
+"TabBar.GameTab.Title" = "Game";
+
+// WelcomeVC
+"WelcomeVC.WelcomeLabel.text" = "Welcome to the Game\n«Determinant»";
+
+// InfoVC
+"InfoVC.Title" = "Matrix 3x3";
+
+"InfoVC.LabelMatrix3x3.Description" = "In mathematics, a matrix is a rectangular array or table of numbers, symbols, or expressions, arranged in rows and columns, which is used to represent a mathematical object or a property of such an object. Matrix 3x3 has 3 columns and 3 rows";
+
+"InfoVC.LabelMainDiagonal.Info" = "To find the determinant(D) of the 3x3 matrix, you need to add three products of elements standing on the main diagonal(Red Colour) and at the vertices of isosceles triangles with a side parallel to this diagonal.\n\nMain Diagonal = (a11a22a33) + (a12a23a31) + (a13a21a32)";
+
+"InfoVC.LabelSecondaryDiagonal.Info" = "Then you need to subtract three products of elements standing on the secondary diagonal(Red Colour) and at the vertices of isosceles triangles with a side parallel to this diagonal\n\nSecondary Diagonal = (a13a22a31) - (a12a21a33) - (a11a23a32)";
+
+"InfoVC.LabelDeterminant.Info" = "The Determinant will be:\nD = Main Diagonal - Secondary Diagonal";
+
+// InstructionVC
+"InstructionVC.Title" = "Instruction";
+
+"InstructionVC.Page1.Text" = "Two players need to choose the sign: (+) or (-). The first move is made by the player (+) with a blue color 🔵 and then the player (-) with a red color 🔴 .\n\n2. The game field is a Matrix 3х3, which consists of the 9 cells. You should enter the number inside the each cell from 1 to 9.\n\n3. Since all the cells have been filled you will see the Determinant value - D and a winner.\n\nFor restart press Start Over. Info section will provide you information about the Matrix 3x3. Note: To activate the numpad you should tap any cell first.";
+
+"InstructionVC.Page2.Text" = "Enjoy the Game!";
+
+// ResultsVC
+"ResultsVC.Title" = "Results";
+
+// ChooseSignVC
+"ChooseSignVC.Title" = "+ Choose a Sign -";
+"ChooseSignVC.Player1Label.Text" = ", choose a sign";
+"ChooseSignVC.Player2Label.Text" = ", choose a sign";
+
+// GameVC
+"GameVC.ScreenTitle" = "Find the Determinant";
+"GameVC.Player(+)Label.Text" = "Player (+)";
+"GameVC.Player(-)Label.Text" = "Player (-)";
+"GameVC.Draw.Text" = "Determinant = 0.\nDraw!🤝 ";
+"GameVC.Player(+)Winner.Text" = "\nPlayer(+) Won 🏆";
+"GameVC.Player(-)Winner.Text" = "\nPlayer(-) Won 🏆";
+
+// AppButtons
+"GameButton.Title" = "Game";
+"InstructionButton.Title" = "Instruction";
+"MoreInfoButton.Title" = "More Info";
+
+// Alert
+"AlertVC.Title" = "Enter Your Name";
+"AlertVC.GameBeginning.Text" = "The first move is made by the player (+) with a blue color 🔵.\nTo activate the numpad you should tap any cell first";

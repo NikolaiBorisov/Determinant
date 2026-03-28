@@ -7,30 +7,31 @@
 
 import UIKit
 
-class PlayerSignButton: UIButton {
-  
-  enum PlayerSignButtonType: String {
-    case buttonPlus = "+"
-    case buttonMinus = "-"
-  }
-  
-  init(type: PlayerSignButtonType) {
-    super.init(frame: .zero)
-    self.setTitleColor(.white, for: .normal)
-    self.titleLabel?.font = UIFont.signButtonFont
-    self.layer.cornerRadius = 10
-    self.layer.borderWidth = 2
-    self.layer.borderColor = UIColor.white.cgColor
-    self.backgroundColor = .darkGray
-    self.setTitle(type.rawValue, for: .normal)
-  }
-  
-  override init(frame: CGRect) {
-    super.init(frame: .zero)
-  }
-  
-  required init?(coder: NSCoder) {
-    fatalError(Constants.NSCoder.fatalError)
-  }
-  
+final class PlayerSignButton: UIButton {
+    
+    enum PlayerSignButtonType: String {
+        case buttonPlus = "+"
+        case buttonMinus = "-"
+    }
+    
+    init(type: PlayerSignButtonType) {
+        super.init(frame: .zero)
+        setTitleColor(.white, for: .normal)
+        titleLabel?.font = UIFont.signButtonFont
+        layer.cornerRadius = 10
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.white.cgColor
+        backgroundColor = .darkGray
+        setTitle(type.rawValue, for: .normal)
+        widthAnchor.constraint(equalToConstant: 50).isActive = true
+        heightAnchor.constraint(equalToConstant: 50).isActive = true
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: .zero)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError(AppConstants.NSCoder.fatalError)
+    }
 }
